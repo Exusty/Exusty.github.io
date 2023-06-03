@@ -1,3 +1,34 @@
+#flipbook {
+  width: 16px;
+  height: 500px;
+}
+body {
+  overflow: auto;
+}
+
+
+.page {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
 @font-face {
 font-family: 'nb_akademie_stdregular';
 src: url('../fonts/nb_akademie_std_regular-webfont-webfont.woff2') format('woff2'),
@@ -100,5 +131,5 @@ display: inline-block;
 }
 
 h1 {
-  margin-bottom: 20px; /* 设置标题的下边距为 20 像素 */
+  margin-bottom: 20px;
 }
