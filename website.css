@@ -1,7 +1,17 @@
-#flipbook {
-  width: 1px;
-  height: 5px;
+.container {
+  position: relative;
+  height: 100vh; /* 设置容器高度，使其占据整个视口 */
 }
+
+.container iframe,
+.container audio {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 20px; /* 调整元素之间的间距 */
+}
+
 body {
   overflow: auto;
 }
@@ -88,7 +98,7 @@ margin-left: -0.5vw;
 }
 
 h1, h1 p{
-font-size: 8.8vw;
+font-size: 8vw;
 line-height: 9.4vw;
 font-weight: normal;
 }
