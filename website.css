@@ -25,9 +25,6 @@ audio {
   height: 10px; /* 调整高度的像素值 */
 }
 
-.pic {
-  width:40%
-}
 
 .caption {
   color: gray;
