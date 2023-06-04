@@ -5,7 +5,9 @@
   align-items: center;
   height: 100vh;
 }
-
+.container {
+  margin-top: -90px; /* 调整此处的值来使容器向上移动 */
+}
 .iframe-wrapper {
   width: 50%;
   height: 50%;
@@ -23,6 +25,21 @@ audio {
   height: 10px; /* 调整高度的像素值 */
 }
 
+.pic {
+  width:40%
+}
+
+.caption {
+  color: gray;
+  font-size: smaller;
+  margin-top: 5px; /* 调整此处的数值以增加间距 */
+}
+
+.spacer {
+  margin-top: 5px; /* 在元素顶部创建 10px 的空白 */
+  padding-bottom: 5px; /* 在元素底部创建 20px 的空白 */
+  height: 300px; /* 创建一个高度为 50px 的空白元素 */
+}
 
 body {
   overflow: auto;
