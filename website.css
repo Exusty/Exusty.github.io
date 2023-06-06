@@ -25,6 +25,11 @@ audio {
   height: 10px; /* 调整高度的像素值 */
 }
 
+.pic1 {
+  width: 40%;
+  float: right;
+}
+
 
 .caption {
   color: gray;
@@ -35,7 +40,17 @@ audio {
 .spacer {
   margin-top: 5px; /* 在元素顶部创建 10px 的空白 */
   padding-bottom: 5px; /* 在元素底部创建 20px 的空白 */
-  height: 300px; /* 创建一个高度为 50px 的空白元素 */
+  height: 320px; /* 创建一个高度为 50px 的空白元素 */
+}
+.spacer1{
+  margin-top: 5px; /* 在元素顶部创建 10px 的空白 */
+  padding-bottom: 5px; /* 在元素底部创建 20px 的空白 */
+  height: 200px; /* 创建一个高度为 50px 的空白元素 */
+}
+.spacer2{
+  margin-top: 5px; /* 在元素顶部创建 10px 的空白 */
+  padding-bottom: 5px; /* 在元素底部创建 20px 的空白 */
+  height: 150px; /* 创建一个高度为 50px 的空白元素 */
 }
 
 body {
